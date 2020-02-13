@@ -173,3 +173,21 @@ h4{
 	text-align: left;
 	width:512px;
 }
+.contact-section{
+	width:100%;
+}
+.contact-container{
+	width:800px;
+}
+.contact-box{
+	display: inline-block;
+}
+.mail-tel-box{
+	width:400px;
+		display: inline-block;
+}
+.SNS-box{
+	width:400px;
+	float:right;
+		display: inline-block;
+}
