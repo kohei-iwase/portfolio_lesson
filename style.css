@@ -1,0 +1,175 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.social i{
+	font:60px;
+}
+header{
+	width:100%;
+	height:70px;
+	margin:0 auto;
+	background-color: #EC715F;
+}
+section{
+	padding-top:90px;
+	padding-bottom:90px;
+}
+h1{
+	font-size:64px;
+}
+h3{
+	font-size:20px;
+}
+h4{
+	font-size:16px;
+}
+.headline{
+	width:1024px;
+	vertical-align:middle;
+}
+.nav-logo{
+	float:left;
+}
+.nav-list{
+	float:right;
+}
+.nav-list-item{
+	text-align: center;
+	list-style:none;
+	display:inline-block;
+	padding:30px 10px 30px 10px;
+	font-size: 16px;
+	color:#FAFAFA;
+}
+.main-visual{
+	height:650px;
+}
+.main-visual-background{
+	width:100%;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position:center;
+	height:650px;
+}
+.main-container{
+	text-align:center;
+	color:#FAFAFA;
+}
+.main-visual-title{
+	padding-top:200px;
+}
+.sub-title{
+	padding-top:10px;
+}
+.portfolio-section{
+	background-color:#ECEFF1;
+	width:100%;
+	height:auto;
+}
+.portfolio-container{
+	color:#000000;
+	width:920px;
+	text-align: center;
+}
+.content-title{
+	padding-bottom:8px;
+	font-size:32px;
+	border-bottom:3px solid:#EC715F ;
+	text-align: center;
+}
+.content-text{
+	padding-top:30px;
+	padding-bottom:30px;
+	font-size: 16px;
+	text-align: center;
+}
+.portfolio-box{
+	float:center;
+	margin-top:30px;
+	width:920px;
+	text-align: center;
+}
+.portfolio{
+	float:left;
+	width:300px;
+	height:250px;
+	margin-right:10px;
+	margin-bottom:10px;
+	background-size:cover;
+	background-position:center;
+}
+.portfolio:nth-child(3n){
+	margin-right:0;
+}
+.portfolio:nth-child(-n+3n){
+	margin-right:0;
+}
+.portfolio:nth-child(1){background-image:url(img/sketch.jpg);}
+.portfolio:nth-child(2){background-image:url(img/webcamp-mother.png);}
+.portfolio:nth-child(3){background-image:url(img/talk.jpg);}
+.portfolio:nth-child(4){background-image:url(img/webcamp.png);}
+.portfolio:nth-child(5){background-image:url(img/write.jpg);}
+.portfolio:nth-child(6){background-image:url(img/websuku.png);}
+
+.feature-section{
+	width:100%;
+}
+.feature-container{
+	color:#000000;
+	width:980px;
+	text-align: center;
+	padding-bottom:90px;
+}
+.strength-box{
+	float:left;
+	width:320px;
+	height:auto;
+	margin-right:10px;
+}
+.strength-box:last-child{
+	margin-right:0;
+}
+.title-box{
+	padding-top:5px;
+	margin-bottom:5px;
+}
+.text-box{
+	margin-bottom:20px;
+}
+.profile-section{
+	background-color: #ECEFF1;
+	width:100%;
+}
+.profile-container{
+	width:1024px;
+	height: auto;
+	text-align: center;
+}
+.profile-box{
+	display:inline-block;
+	padding-top:30px;
+}
+.profile-image-box{
+	width:512px;
+	float:left
+}
+.profile-image{
+	float:right;
+	margin-right: 80px;
+	width:250px;
+	height: 250px;
+	background-image: url(img/my-icon.jpg);
+	border-radius: 50%;
+}
+.profile-text{
+	float:left;
+	text-align: left;
+	width:512px;
+}
