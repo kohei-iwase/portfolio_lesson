@@ -288,6 +288,7 @@ h3{
 }
 .portfolio-box{
 	width:90%;
+	margin: 0 auto
 }
 .portfolio{
 	float:none;
@@ -304,6 +305,8 @@ h3{
 }
 .feature-section{
 	width:90%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 .feature-container{
 	width:90%;
@@ -318,80 +321,64 @@ h3{
 .strength-box:last-child{
 	margin-right:0;
 }
-.title-box{
-	color:#000000;
-	padding-top:5px;
-	margin-bottom:5px;
-}
-.text-box{
-	margin-bottom:20px;
-}
 .profile-section{
-	background-color: #ECEFF1;
 	width:90%;
-}
-.profile-container{
-	width:1024px;
-	height: auto;
-	text-align: center;
 	margin:0 auto;
 }
+.profile-container{
+	width:90%;
+}
 .profile-box{
-	display:inline-block;
 	padding-top:30px;
 }
 .profile-image-box{
-	width:512px;
-	float:left
-}
-.profile-image{
-	float:right;
-	margin-right: 80px;
-	width:250px;
-	height: 250px;
-	background-image: url(img/my-icon.jpg);
-	border-radius: 50%;
-}
-.profile-text{
-	float:left;
-	text-align: left;
-	width:512px;
-}
-.contact-section{
-	width:100%;
-}
-.contact-container{
-	width:800px;
+	width:90%;
+	float:none;
 	margin:0 auto;
 }
+.profile-image{
+	float:none;
+	margin: 0 auto;
+}
+.profile-text{
+	float:none;
+	width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+	text-align: center;
+}
+.contact-section{
+	width:90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+.contact-container{
+	width:90%;
+}
 .contact-box{
-	width:800px;
+	width:90%;
+	margin-right: 5%;
+    margin-left: 5%;
 	display: inline-block;
+	text-align: center
 }
 .mail-tel-box{
-	width:400px;
-	float:left;
-	padding-left:180px;
+	width:90%;
+	margin-right: 5%;
+    margin-left: 5%;
+	float:none;
+	padding-left:0px;
+
 }
 .SNS-box{
-	padding-left:20px;
-	width:400px;
-	float:right;
+	width:90%;
+	margin-right: 5%;
+    margin-left: 5%;
+	float:none;
 	display: inline-block;
 }
 footer{
-	background-color: #EC715F;
-	height:60px;
 	width: 90%;
 	margin:0 auto;
-
-
-}
-.footer-text{
-	line-height:60px;
-	font-size: 16px;
-	color:#FAFAFA;
-	text-align:center;
-	vertical-align: middle;
 }
 }
