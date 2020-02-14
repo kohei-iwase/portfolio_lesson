@@ -2,18 +2,18 @@
 <html lang="ja">
 	<head>
 	  <meta charset="UTF-8">
-<!--	  <meta name="viewport" content="width=device-width,initial-scale=1.0">-->
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 <script src="https://kit.fontawesome.com/696371b99a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-	  <link rel="stylesheet" href="style.css">
-		<title>top</title>
+	<title>top</title>
 	</head>
 	<body>
 		<header>
-			<div class="container">
+			<div class="header-container clearfix">
 			<div class ="headline">
-				<img crass="nav-logo" src="img/logo.png" width="auto" height="50">
-				<nav>
+				<img class="nav-logo" src="img/logo.png">
+				<nav class="nav">
 					<ul class="nav-list">
 						<li class="nav-list-item">Portfolio</li>
 						<li class="nav-list-item">Feature</li>
@@ -34,7 +34,8 @@
 		</span>
 		<section class="portfolio-section">
 			<div class="portfolio-container">
-				<div class="content-title">Portfolio</div>
+				<h2 class="content-title">Portfolio</h2>
+				<div class="content-line"></div>
 				<div class="content-text">
 					It is a long established fact that a reader will be distracted by the readable
 					<br>content of a page when looking at its layout.
@@ -52,13 +53,14 @@
 		</section>
 		<section class="feature">
 			<div class="feature-container">
-				<div class="content-title">Feature</div>
+				<h2 class="content-title">Feature</h2>
+				<div class="content-line"></div>
 				<div class="content-text">
 					It is a long established fact that a reader will be distracted by the readable
 					<br>content of a page when looking at its layout.
 					<br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
 				</div>
-				<div class="feature-box">
+				<div class="feature-box clearfix">
 					<div class="strength-box">
 						<i class="fas fa-university"></i>
 						<h3 class="title-box">Strength1</h3>
@@ -85,7 +87,8 @@
 		</section>
 		<section class="profile-section">
 			<div class="profile-container">
-				<div class="content-title">Profile</div>
+				<h2 class="content-title">Profile</h2>
+				<div class="content-line"></div>
 				<div class="content-text">
 					It is a long established fact that a reader will be distracted by the readable
 					<br>content of a page when looking at its layout.
@@ -111,14 +114,15 @@
 		</section>
 		<section class="contact-section">
 			<div class="contact-container">
-				<div class="content-title">Contact</div>
+				<h2 class="content-title">Contact</h2>
+				<div class="content-line"></div>
 				<div class="content-text">
 					It is a long established fact that a reader will be distracted by the readable
 					<br>content of a page when looking at its layout.
 					<br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
 				</div>
 				<div class="contact-box">
-					<div crass="mail-tel-box">
+					<div class="mail-tel-box">
 						<div class="mail-box">
 							<h3 class="title-box">Mail</h3>
 							<h4 class="text-box">XXX@XXX.com</h4>
@@ -139,6 +143,11 @@
 				</div>
 			</div>
 		</section>
+		<footer>
+			<p class="footer-text clearfix">
+				© 2017 WebCamp
+			</p>
+		</footer>
 	</body>
 </html>
 
